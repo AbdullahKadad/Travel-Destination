@@ -1,0 +1,14 @@
+.tour{
+    min-width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.h4{
+    font-size: 18px;
+    padding: 10px 0 5px 10px;
+}
+
+.tour img{
+    display: block;
+    border-radius: 10px;
+}
