@@ -1,19 +1,33 @@
-address{
-    font-size: 16px;
-    
-}
-.h2{
-    font-size: 18px;
-    padding-left: 20px;
-}
-ul{
+footer address{
+    padding: 20px;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+footer address div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
-    padding: 10px 0 0 20px;
 }
-ul li{
+footer address div p{
+    font-size: 16px;
+    color: blue;
+}
+footer address div h2{
+    font-size: 24px;
+    color: blue;
+}
+footer address ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
     list-style: none;
+    color: blue;
 }
-ul li a{
-    color: goldenrod;
+footer address ul a{
+    text-decoration: none;
+    color: blue;
 }

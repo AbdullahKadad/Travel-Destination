@@ -2,7 +2,11 @@ function Footer() {
   return (
     <footer>
       <address>
-        Created by <h2 className="h2">Abdullah Qdad</h2>
+        <div>
+          <p>Created by</p>
+          <h2>Abdullah Qdad</h2>
+        </div>
+
         <ul>
           <li>
             <a href="https://twitter.com/">Twitter</a>
